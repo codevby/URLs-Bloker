@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "URLs Blocker",
+    "version": "1.0",
+    "description": "Bloquea el acceso a un sitio web específico",
+    "icons": {
+        "128": "icons/icon128.png"
+    },
+    "permissions": ["declarativeNetRequest", "storage", "activeTab", "scripting"],
+    "host_permissions": ["*://*/*"],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
+  
