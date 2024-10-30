@@ -1,34 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Extension</title>
+<html>
+  <head>
+    <title>Bloquear Anuncios</title>
+  </head>
+  <body>
+    <button id="toggleButton">Activar Bloqueo de Anuncios</button>
+    <script src="popup.js"></script>
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>URLs Blocker</h1>
-    </header>
-
-    <h2 style="color: white;">Sitios bloqueados</h2>
-
-    <div id="blocked-sites-list">
-        <ul id="blocked-sites-list">
-
-        </ul>
-    </div>
-
-    
-    <h1>Bloquear Sitio</h1>
-
-    <input type="text" id="url-to-block" placeholder="URL a bloquear">
-
-    <button id="block-site">Bloquer sitio</button>
-
-    <button id="clear-blocked-sites">Limpiar lista de bloqueados</button>
-
-    <script src="popup.js" type="module"></script>
-
-</body>
+  </body>
 </html>
