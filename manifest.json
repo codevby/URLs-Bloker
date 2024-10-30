@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Ad Blocker",
-  "version": "1.0",
+  "version": "0.3.1",
   "description": "Bloquea anuncios y permite activar/desactivar",
   "permissions": ["scripting", "storage", "declarativeNetRequest"],
   "host_permissions": ["<all_urls>"],
@@ -20,7 +20,7 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "128": "icons/icon128.png"
+      "48": "icons/icon.png"
     }
   },
   "content_scripts": [

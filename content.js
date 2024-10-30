@@ -11,7 +11,12 @@ chrome.storage.local.get("adBlockEnabled", (data) => {
       "[class*='ad']",
       "[data-ad]",
       ".sponsored",
-      ".banner"
+      ".banner",
+      // Selectores adicionales para YouTube
+      ".ytp-ad-module",
+      ".ytp-ad-player-overlay",
+      "#player-ads",
+      "div#container.ytp-ad-overlay-container"
     ];
 
     adSelectors.forEach((selector) => {
